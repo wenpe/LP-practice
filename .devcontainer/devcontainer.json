@@ -1,0 +1,17 @@
+{
+  "name": "dev-container",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "node-dev",
+  "workspaceFolder": "/root/workstation",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {}
+    }
+  },
+  "shutdownAction": "stopCompose"
+}
