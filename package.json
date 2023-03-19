@@ -1,0 +1,55 @@
+{
+  "name": "lp-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "ie >= 11"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "babel-loader": "^9.1.2",
+    "browser-sync": "^2.29.0",
+    "del": "^7.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "sass": "^1.59.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.76.2",
+    "webpack-merge": "^5.8.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "gsap": "^3.11.5",
+    "imagesloaded": "^5.0.0",
+    "jquery": "^3.6.4",
+    "swiper": "^9.1.1"
+  }
+}
